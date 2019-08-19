@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Ad;
 use App\Form\AdType;
+use App\Entity\Image;
 use App\Repository\AdRepository;
 use Symfony\Component\HttpFoundation\Request;
 use Doctrine\Common\Persistence\ObjectManager;
@@ -35,6 +36,19 @@ class AdController extends AbstractController
      */
     public function create(Request $request, ObjectManager $manager){
         $ad = new Ad();
+
+        $image = new Image();
+
+        $image->setUrl('http://placehold.it/400x200')
+              ->setCaption('Titre 1');
+
+        $image2 = new Image();
+
+        $image2->setUrl('http://placehold.it/400x200')
+              ->setCaption('Titre 2');
+
+        $ad->addImage($image);
+        $ad->addImage($image2);
 
         $form = $this->createForm(AdType::class, $ad);
 
