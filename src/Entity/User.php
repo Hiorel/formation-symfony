@@ -84,6 +84,10 @@ class User implements UserInterface
      */
     private $ads;
 
+    public function getFullName() {
+        return "{$this->firstName} {$this->lastName}";
+    }
+
     /**
      * Permet d'initialiser le slug !
      *
@@ -102,6 +106,7 @@ class User implements UserInterface
     public function __construct()
     {
         $this->ads = new ArrayCollection();
+        $this->adss = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -251,4 +256,6 @@ class User implements UserInterface
     }
 
     public function eraseCredentials() {}
+
+    
 }
