@@ -4,9 +4,8 @@
         <meta charset="UTF-8">
         <title>SymBNB - {% block title %}Welcome!{% endblock %}</title>
         <meta name="viewport" content="width=device-width, user-scalable=no">
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/fa/css/all.css">
-        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="{{ asset('build/app.css') }}">
+        <link rel="stylesheet" href="/font/css/all.css">
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
@@ -15,9 +14,8 @@
         {% block body %}{% endblock %}
 
         {% include "admin/partials/footer.html.twig" %}
-            <script src="/js/jquery.min.js"></script>
-            <script src="/js/popper.min.js"></script>
-            <script src="/js/bootstrap.min.js"></script>
+        {{ encore_entry_script_tags('app') }}
+        {{ encore_entry_script_tags('ad') }}   
         {% block javascripts %}{% endblock %}
     </body>
 </html>
