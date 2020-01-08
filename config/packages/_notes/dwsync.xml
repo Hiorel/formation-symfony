@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="assets.yaml" server="access769409937.webspace-data.io//leclerc/formation-symfony/" local="132089497067487759" remote="132229515060000000" Dst="1" />
+<file name="cache.yaml" server="access769409937.webspace-data.io//leclerc/formation-symfony/" local="132089484953790019" remote="132229515060000000" Dst="1" />
+<file name="doctrine.yaml" server="access769409937.webspace-data.io//leclerc/formation-symfony/" local="132089484955301038" remote="132229515060000000" Dst="1" />
+<file name="doctrine_migrations.yaml" server="access769409937.webspace-data.io//leclerc/formation-symfony/" local="132089484955769321" remote="132229515070000000" Dst="1" />
+<file name="framework.yaml" server="access769409937.webspace-data.io//leclerc/formation-symfony/" local="132089484953831382" remote="132229515070000000" Dst="1" />
+<file name="routing.yaml" server="access769409937.webspace-data.io//leclerc/formation-symfony/" local="132089484954635702" remote="132229515070000000" Dst="1" />
+<file name="security.yaml" server="access769409937.webspace-data.io//leclerc/formation-symfony/" local="132210679630355413" remote="132229515070000000" Dst="1" />
+<file name="sensio_framework_extra.yaml" server="access769409937.webspace-data.io//leclerc/formation-symfony/" local="132089484954819268" remote="132229515070000000" Dst="1" />
+<file name="swiftmailer.yaml" server="access769409937.webspace-data.io//leclerc/formation-symfony/" local="132089484956172453" remote="132229515080000000" Dst="1" />
+<file name="translation.yaml" server="access769409937.webspace-data.io//leclerc/formation-symfony/" local="132089484956430425" remote="132229515080000000" Dst="1" />
+<file name="twig.yaml" server="access769409937.webspace-data.io//leclerc/formation-symfony/" local="132092097086562823" remote="132229515080000000" Dst="1" />
+<file name="validator.yaml" server="access769409937.webspace-data.io//leclerc/formation-symfony/" local="132091383082924594" remote="132229515080000000" Dst="1" />
+<file name="webpack_encore.yaml" server="access769409937.webspace-data.io//leclerc/formation-symfony/" local="132089497067586928" remote="132229515090000000" Dst="1" />
+</dwsync>
